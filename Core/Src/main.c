@@ -141,7 +141,7 @@ int main(void)
 
 	  HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
 	  count++;
-	  HAL_Delay(500);
+	  HAL_Delay(1000);
 	  if((count % 2) == 0)
 	  {
 		  HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_8);
